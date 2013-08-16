@@ -1,0 +1,4 @@
+#exportPattern("^[[:alpha:]]+")
+export(basher, glpenalty, kdpec, kparts, wash, washout, wash.showall, qqrank, plot.kparts)
+import(graphics, grDevices, stats, utils, sqldf)
+S3method(plot, kparts)
